@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.heroImage{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.heroImage img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    opacity: 0.8;
+
+}
+.heroImage ::after{
+    content: "";
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
