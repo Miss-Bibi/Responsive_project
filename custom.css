@@ -13,10 +13,10 @@
     background-size: cover;
     object-fit: cover;
     background-position: center;
-    opacity: 0.8;
+   
 
 }
-.heroImage ::after{
+.heroImage::after{
     content: "";
     background-color: #111;
     width: 100%;
@@ -24,5 +24,23 @@
     position: absolute;
     left: 0;
     top: 0;
+    opacity: 0.5;
+}
+.about .about-text{
+    width: 500px;
+}
+.micro img{
+    width: 70px;
+
+}
+.service{
+    background-color: whitesmoke;
+}
+.service h2:hover{
+    color: lightskyblue;
+    transition: 0.1s;
+}
+.card{
+
 
 }
