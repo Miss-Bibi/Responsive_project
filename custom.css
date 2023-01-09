@@ -47,7 +47,15 @@
 .card img{
  height: 300px;
 }
-
+/* .card img:hover {
+    width: 80% !important;
+    height: 80% !important;
+    transition: width 2s height 2s;
+    z-index: 999;
+}
+.card:hover .tooltip {
+    visibility: visible; */
+  
 hr{
     width: 3rem;
     height: 5px;
